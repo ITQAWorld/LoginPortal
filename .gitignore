@@ -1,0 +1,16 @@
+lib_managed
+project/project
+project/target
+target
+.idea
+.cache
+/.classpath
+db
+dist
+.DS_Store
+**/*.DS_Store
+eclipse
+*.eml
+.history
+/.idea_modules
+*.iml
