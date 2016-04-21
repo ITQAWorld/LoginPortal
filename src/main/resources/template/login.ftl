@@ -5,15 +5,17 @@
     <title>Login</title>
     <style type="text/css">
         .label {text-align: right}
-        .error {color: white}
+        .error {color: red}
+        body {
+            border: 20px solid black;  }
+        }
     </style>
-
 </head>
 
-<body bgcolor="#E6E6FBT">
+<body>
 <h2>Login</h2>
 <form method="post">
-    <table>
+    <table bgcolor="#1E90FF">
         <tr>
             <td class="label">
                 Username
@@ -39,8 +41,7 @@
         </tr>
 
     </table>
-
-    <input type="submit">
+    <input type="submit" class="button" STYLE="color:black;">
 </form>
 </body>
 

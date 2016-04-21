@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 lib_managed
 project/project
 project/target
@@ -14,3 +15,17 @@ eclipse
 .history
 /.idea_modules
 *.iml
+=======
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> fa7fe8f9dc45be0d83e81afcaedaa019bc449758
