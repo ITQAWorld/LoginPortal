@@ -25,13 +25,13 @@ public class PortalController {
 
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
-            new PortalController("mongodb://localhost");
+            new PortalController();
         } else {
-            new PortalController(args[0]);
+            new PortalController();
         }
     }
 
-    public PortalController(String mongoURIString) throws IOException {
+    public PortalController() throws IOException {
         cfg = createFreemarkerConfiguration();
         setPort(4256);
         initializeRoutes();

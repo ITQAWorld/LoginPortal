@@ -11,6 +11,6 @@
 
 ### Run the Portal 
 ```bash
-$ mvn compile exec:java -Dexec.mainClass=logiPortalController
+$ mvn compile exec:java -Dexec.mainClass=login.PortalController
 ```
 
